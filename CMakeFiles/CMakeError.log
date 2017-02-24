@@ -1,0 +1,1573 @@
+Performing C SOURCE FILE Test HAVE_LD_VERSION_SCRIPT failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b1576.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:28:50 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_b1576.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b1576.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b1576.dir\Debug\cmTC_b1576.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b1576.dir\Debug\cmTC_b1576.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_LD_VERSION_SCRIPT /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b1576.dir\Debug\\" /Fd"cmTC_b1576.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  -Wl,--version-script=C:/libtiff/conftest.map C:\libtiff\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_LD_VERSION_SCRIPT /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b1576.dir\Debug\\" /Fd"cmTC_b1576.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue  -Wl,--version-script=C:/libtiff/conftest.map C:\libtiff\CMakeFiles\CMakeTmp\src.c
+cl : Command line error D8021: invalid numeric argument '/Wl,--version-script=C:/libtiff/conftest.map' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_b1576.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_b1576.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_b1576.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line error D8021: invalid numeric argument '/Wl,--version-script=C:/libtiff/conftest.map' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_b1576.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.34
+
+Source file was:
+int main(void){return 0;}
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_59372.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:28:51 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_59372.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_59372.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_59372.dir\Debug\cmTC_59372.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_59372.dir\Debug\cmTC_59372.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_59372.dir\Debug\\" /Fd"cmTC_59372.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_59372.dir\Debug\\" /Fd"cmTC_59372.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_59372.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_59372.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_59372.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_59372.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.35
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2aad0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:28:57 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2aad0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2aad0.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2aad0.dir\Debug\cmTC_2aad0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2aad0.dir\Debug\cmTC_2aad0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2aad0.dir\Debug\\" /Fd"cmTC_2aad0.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2aad0.dir\Debug\\" /Fd"cmTC_2aad0.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2aad0.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2aad0.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2aad0.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2aad0.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.33
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_bee4b.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:28:58 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_bee4b.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_bee4b.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_bee4b.dir\Debug\cmTC_bee4b.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_bee4b.dir\Debug\cmTC_bee4b.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bee4b.dir\Debug\\" /Fd"cmTC_bee4b.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bee4b.dir\Debug\\" /Fd"cmTC_bee4b.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_bee4b.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_bee4b.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_bee4b.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_bee4b.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.32
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_92c12.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:28:59 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_92c12.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_92c12.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_92c12.dir\Debug\cmTC_92c12.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_92c12.dir\Debug\cmTC_92c12.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_92c12.dir\Debug\\" /Fd"cmTC_92c12.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_92c12.dir\Debug\\" /Fd"cmTC_92c12.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_92c12.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_92c12.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_92c12.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_92c12.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.34
+
+
+Performing C SOURCE FILE Test C_HAS_inline failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a5fb5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:28:59 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a5fb5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a5fb5.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a5fb5.dir\Debug\cmTC_a5fb5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a5fb5.dir\Debug\cmTC_a5fb5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D C_HAS_inline /D _DEBUG /D inline=inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a5fb5.dir\Debug\\" /Fd"cmTC_a5fb5.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D C_HAS_inline /D _DEBUG /D inline=inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a5fb5.dir\Debug\\" /Fd"cmTC_a5fb5.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2054: expected '(' to follow 'inline' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a5fb5.vcxproj]
+C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2085: 'static_foo' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a5fb5.vcxproj]
+C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2143: syntax error : missing ';' before '{' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a5fb5.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a5fb5.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a5fb5.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2054: expected '(' to follow 'inline' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a5fb5.vcxproj]
+  C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2085: 'static_foo' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a5fb5.vcxproj]
+  C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2143: syntax error : missing ';' before '{' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a5fb5.vcxproj]
+
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:00.32
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Performing C SOURCE FILE Test C_HAS___inline__ failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c0111.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:00 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c0111.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c0111.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c0111.dir\Debug\cmTC_c0111.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c0111.dir\Debug\cmTC_c0111.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D C_HAS___inline__ /D _DEBUG /D inline=__inline__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c0111.dir\Debug\\" /Fd"cmTC_c0111.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D C_HAS___inline__ /D _DEBUG /D inline=__inline__ /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c0111.dir\Debug\\" /Fd"cmTC_c0111.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2054: expected '(' to follow '__inline__' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c0111.vcxproj]
+C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2085: 'static_foo' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c0111.vcxproj]
+C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2143: syntax error : missing ';' before '{' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c0111.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c0111.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c0111.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2054: expected '(' to follow '__inline__' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c0111.vcxproj]
+  C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2085: 'static_foo' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c0111.vcxproj]
+  C:\libtiff\CMakeFiles\CMakeTmp\src.c(3): error C2143: syntax error : missing ';' before '{' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c0111.vcxproj]
+
+    0 Warning(s)
+    3 Error(s)
+
+Time Elapsed 00:00:00.32
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Performing C SOURCE FILE Test TIME_WITH_SYS_TIME failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c32ed.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:01 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c32ed.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c32ed.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c32ed.dir\Debug\cmTC_c32ed.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c32ed.dir\Debug\cmTC_c32ed.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D TIME_WITH_SYS_TIME /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c32ed.dir\Debug\\" /Fd"cmTC_c32ed.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D TIME_WITH_SYS_TIME /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c32ed.dir\Debug\\" /Fd"cmTC_c32ed.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\src.c
+  src.c
+  
+C:\libtiff\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c32ed.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c32ed.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c32ed.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\src.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c32ed.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.32
+
+Source file was:
+
+#include <sys/time.h>
+#include <time.h>
+int main(void){return 0;}
+Determining size of INT8 failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_aff51.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:09 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_aff51.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_aff51.dir\Debug\cmTC_aff51.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_aff51.dir\Debug\cmTC_aff51.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_aff51.dir\Debug\\" /Fd"cmTC_aff51.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CheckTypeSize\int8.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_aff51.dir\Debug\\" /Fd"cmTC_aff51.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CheckTypeSize\int8.c
+  
+  int8.c
+C:\libtiff\CMakeFiles\CheckTypeSize\int8.c(19): error C2065: 'INT8' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int8.c(20): error C2065: 'INT8' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int8.c(21): error C2065: 'INT8' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int8.c(22): error C2065: 'INT8' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int8.c(23): error C2065: 'INT8' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CheckTypeSize\int8.c(19): error C2065: 'INT8' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int8.c(20): error C2065: 'INT8' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int8.c(21): error C2065: 'INT8' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int8.c(22): error C2065: 'INT8' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int8.c(23): error C2065: 'INT8' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_aff51.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.32
+
+C:/libtiff/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2e4ea.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:10 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_2e4ea.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_2e4ea.dir\Debug\cmTC_2e4ea.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_2e4ea.dir\Debug\cmTC_2e4ea.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2e4ea.dir\Debug\\" /Fd"cmTC_2e4ea.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CheckTypeSize\int16.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2e4ea.dir\Debug\\" /Fd"cmTC_2e4ea.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CheckTypeSize\int16.c
+  int16.c
+  
+C:\libtiff\CMakeFiles\CheckTypeSize\int16.c(19): error C2065: 'INT16' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int16.c(20): error C2065: 'INT16' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int16.c(21): error C2065: 'INT16' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int16.c(22): error C2065: 'INT16' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int16.c(23): error C2065: 'INT16' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CheckTypeSize\int16.c(19): error C2065: 'INT16' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int16.c(20): error C2065: 'INT16' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int16.c(21): error C2065: 'INT16' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int16.c(22): error C2065: 'INT16' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int16.c(23): error C2065: 'INT16' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_2e4ea.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.32
+
+C:/libtiff/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_04f44.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:10 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_04f44.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_04f44.dir\Debug\cmTC_04f44.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_04f44.dir\Debug\cmTC_04f44.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_04f44.dir\Debug\\" /Fd"cmTC_04f44.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CheckTypeSize\int32.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_04f44.dir\Debug\\" /Fd"cmTC_04f44.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CheckTypeSize\int32.c
+  
+  int32.c
+C:\libtiff\CMakeFiles\CheckTypeSize\int32.c(19): error C2065: 'INT32' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int32.c(20): error C2065: 'INT32' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int32.c(21): error C2065: 'INT32' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int32.c(22): error C2065: 'INT32' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj]
+C:\libtiff\CMakeFiles\CheckTypeSize\int32.c(23): error C2065: 'INT32' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CheckTypeSize\int32.c(19): error C2065: 'INT32' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int32.c(20): error C2065: 'INT32' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int32.c(21): error C2065: 'INT32' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int32.c(22): error C2065: 'INT32' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj]
+  C:\libtiff\CMakeFiles\CheckTypeSize\int32.c(23): error C2065: 'INT32' : undeclared identifier [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_04f44.vcxproj]
+
+    0 Warning(s)
+    5 Error(s)
+
+Time Elapsed 00:00:00.33
+
+C:/libtiff/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function isascii exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a17e3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:12 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a17e3.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_a17e3.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_a17e3.dir\Debug\cmTC_a17e3.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_a17e3.dir\Debug\cmTC_a17e3.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=isascii /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a17e3.dir\Debug\\" /Fd"cmTC_a17e3.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=isascii /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a17e3.dir\Debug\\" /Fd"cmTC_a17e3.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_a17e3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_a17e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_a17e3.lib" /MACHINE:X64  /machine:x64 cmTC_a17e3.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol isascii referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a17e3.vcxproj]
+C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_a17e3.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a17e3.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a17e3.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a17e3.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol isascii referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a17e3.vcxproj]
+  C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_a17e3.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_a17e3.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.53
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_5ab05.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:14 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5ab05.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5ab05.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5ab05.dir\Debug\cmTC_5ab05.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5ab05.dir\Debug\cmTC_5ab05.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mmap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5ab05.dir\Debug\\" /Fd"cmTC_5ab05.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mmap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5ab05.dir\Debug\\" /Fd"cmTC_5ab05.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_5ab05.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_5ab05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_5ab05.lib" /MACHINE:X64  /machine:x64 cmTC_5ab05.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol mmap referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5ab05.vcxproj]
+C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_5ab05.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5ab05.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5ab05.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5ab05.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol mmap referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5ab05.vcxproj]
+  C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_5ab05.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5ab05.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.43
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_7c002.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:15 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_7c002.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_7c002.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_7c002.dir\Debug\cmTC_7c002.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_7c002.dir\Debug\cmTC_7c002.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7c002.dir\Debug\\" /Fd"cmTC_7c002.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7c002.dir\Debug\\" /Fd"cmTC_7c002.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_7c002.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_7c002.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_7c002.lib" /MACHINE:X64  /machine:x64 cmTC_7c002.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasecmp referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_7c002.vcxproj]
+C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_7c002.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_7c002.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_7c002.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_7c002.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol strcasecmp referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_7c002.vcxproj]
+  C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_7c002.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_7c002.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.42
+
+
+Determining if the function getopt exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4268c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:19 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_4268c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4268c.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4268c.dir\Debug\cmTC_4268c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4268c.dir\Debug\cmTC_4268c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getopt /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4268c.dir\Debug\\" /Fd"cmTC_4268c.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getopt /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4268c.dir\Debug\\" /Fd"cmTC_4268c.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_4268c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_4268c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_4268c.lib" /MACHINE:X64  /machine:x64 cmTC_4268c.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol getopt referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_4268c.vcxproj]
+C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_4268c.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_4268c.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_4268c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_4268c.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol getopt referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_4268c.vcxproj]
+  C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_4268c.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_4268c.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.43
+
+
+Performing C SOURCE FILE Test HAVE_SNPRINTF failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_463aa.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:20 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_463aa.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_463aa.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_463aa.dir\Debug\cmTC_463aa.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_463aa.dir\Debug\cmTC_463aa.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SNPRINTF /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_463aa.dir\Debug\\" /Fd"cmTC_463aa.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_SNPRINTF /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_463aa.dir\Debug\\" /Fd"cmTC_463aa.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\src.c
+  src.c
+  
+C:\libtiff\CMakeFiles\CMakeTmp\src.c(5): warning C4013: 'snprintf' undefined; assuming extern returning int [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_463aa.vcxproj]
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_463aa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_463aa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_463aa.lib" /MACHINE:X64  /machine:x64 cmTC_463aa.dir\Debug\src.obj
+src.obj : error LNK2019: unresolved external symbol snprintf referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_463aa.vcxproj]
+C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_463aa.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_463aa.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_463aa.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_463aa.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\src.c(5): warning C4013: 'snprintf' undefined; assuming extern returning int [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_463aa.vcxproj]
+
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_463aa.vcxproj" (default target) (1) ->
+(Link target) -> 
+  src.obj : error LNK2019: unresolved external symbol snprintf referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_463aa.vcxproj]
+  C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_463aa.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_463aa.vcxproj]
+
+    1 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.45
+
+Source file was:
+
+#include <stdio.h>
+int main(void) {
+  char buf[10];
+  snprintf(buf, 10, "Test %d", 1);
+  return 0;
+}
+Determining if the system is big endian passed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_c4a83.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:22 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c4a83.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c4a83.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c4a83.dir\Debug\cmTC_c4a83.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c4a83.dir\Debug\cmTC_c4a83.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c4a83.dir\Debug\\" /Fd"cmTC_c4a83.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\TestEndianess.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_c4a83.dir\Debug\\" /Fd"cmTC_c4a83.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\TestEndianess.c
+  
+  TestEndianess.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_c4a83.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_c4a83.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_c4a83.lib" /MACHINE:X64  /machine:x64 cmTC_c4a83.dir\Debug\TestEndianess.obj
+  cmTC_c4a83.vcxproj -> C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_c4a83.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_c4a83.dir\Debug\cmTC_c4a83.tlog\unsuccessfulbuild".
+  Touching "cmTC_c4a83.dir\Debug\cmTC_c4a83.tlog\cmTC_c4a83.lastbuildstate".
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_c4a83.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.52
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_435b2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:22 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_435b2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_435b2.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_435b2.dir\Debug\cmTC_435b2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_435b2.dir\Debug\cmTC_435b2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=jbg_newlen /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_435b2.dir\Debug\\" /Fd"cmTC_435b2.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=jbg_newlen /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_435b2.dir\Debug\\" /Fd"cmTC_435b2.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_435b2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_435b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/libtiff/CMakeFiles/CMakeTmp/Debug/cmTC_435b2.lib" /MACHINE:X64  /machine:x64 cmTC_435b2.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol jbg_newlen referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_435b2.vcxproj]
+C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_435b2.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_435b2.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_435b2.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_435b2.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol jbg_newlen referenced in function main [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_435b2.vcxproj]
+  C:\libtiff\CMakeFiles\CMakeTmp\Debug\cmTC_435b2.exe : fatal error LNK1120: 1 unresolved externals [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_435b2.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.43
+
+
+Determining if the include file GL/gl.h exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f9750.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:25 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f9750.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f9750.dir\Debug\cmTC_f9750.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f9750.dir\Debug\cmTC_f9750.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f9750.dir\Debug\\" /Fd"cmTC_f9750.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f9750.dir\Debug\\" /Fd"cmTC_f9750.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2146: syntax error : missing ',' before identifier 'glAccum' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2146: syntax error : missing ',' before identifier 'glAlphaFunc' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2146: syntax error : missing ',' before identifier 'glAreTexturesResident' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2146: syntax error : missing ',' before identifier 'glArrayElement' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2146: syntax error : missing ',' before identifier 'glBegin' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2146: syntax error : missing ',' before identifier 'glBindTexture' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2146: syntax error : missing ',' before identifier 'glBitmap' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2146: syntax error : missing ',' before identifier 'glBlendFunc' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2146: syntax error : missing ',' before identifier 'glCallList' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2146: syntax error : missing ',' before identifier 'glCallLists' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2146: syntax error : missing ',' before identifier 'glClear' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2146: syntax error : missing ',' before identifier 'glClearAccum' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2146: syntax error : missing ',' before identifier 'glClearColor' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2146: syntax error : missing ',' before identifier 'glClearDepth' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2146: syntax error : missing ',' before identifier 'glClearIndex' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2146: syntax error : missing ',' before identifier 'glClearStencil' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2146: syntax error : missing ',' before identifier 'glClipPlane' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2146: syntax error : missing ',' before identifier 'glColor3b' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2146: syntax error : missing ',' before identifier 'glColor3bv' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2146: syntax error : missing ',' before identifier 'glColor3d' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1177): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1177): fatal error C1003: error count exceeds 100; stopping compilation [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2146: syntax error : missing ',' before identifier 'glAccum' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2146: syntax error : missing ',' before identifier 'glAlphaFunc' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2146: syntax error : missing ',' before identifier 'glAreTexturesResident' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2146: syntax error : missing ',' before identifier 'glArrayElement' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2146: syntax error : missing ',' before identifier 'glBegin' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2146: syntax error : missing ',' before identifier 'glBindTexture' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2146: syntax error : missing ',' before identifier 'glBitmap' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2146: syntax error : missing ',' before identifier 'glBlendFunc' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2146: syntax error : missing ',' before identifier 'glCallList' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2146: syntax error : missing ',' before identifier 'glCallLists' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2146: syntax error : missing ',' before identifier 'glClear' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2146: syntax error : missing ',' before identifier 'glClearAccum' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2146: syntax error : missing ',' before identifier 'glClearColor' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2146: syntax error : missing ',' before identifier 'glClearDepth' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2146: syntax error : missing ',' before identifier 'glClearIndex' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2146: syntax error : missing ',' before identifier 'glClearStencil' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2146: syntax error : missing ',' before identifier 'glClipPlane' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2146: syntax error : missing ',' before identifier 'glColor3b' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2146: syntax error : missing ',' before identifier 'glColor3bv' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2146: syntax error : missing ',' before identifier 'glColor3d' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1177): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1177): fatal error C1003: error count exceeds 100; stopping compilation [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_f9750.vcxproj]
+
+    0 Warning(s)
+    102 Error(s)
+
+Time Elapsed 00:00:00.42
+
+
+Determining if the include file GL/glu.h exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_18423.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:26 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_18423.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_18423.dir\Debug\cmTC_18423.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_18423.dir\Debug\cmTC_18423.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_18423.dir\Debug\\" /Fd"cmTC_18423.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_18423.dir\Debug\\" /Fd"cmTC_18423.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2146: syntax error : missing ',' before identifier 'glAccum' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2146: syntax error : missing ',' before identifier 'glAlphaFunc' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2146: syntax error : missing ',' before identifier 'glAreTexturesResident' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2146: syntax error : missing ',' before identifier 'glArrayElement' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2146: syntax error : missing ',' before identifier 'glBegin' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2146: syntax error : missing ',' before identifier 'glBindTexture' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2146: syntax error : missing ',' before identifier 'glBitmap' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2146: syntax error : missing ',' before identifier 'glBlendFunc' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2146: syntax error : missing ',' before identifier 'glCallList' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2146: syntax error : missing ',' before identifier 'glCallLists' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2146: syntax error : missing ',' before identifier 'glClear' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2146: syntax error : missing ',' before identifier 'glClearAccum' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2146: syntax error : missing ',' before identifier 'glClearColor' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2146: syntax error : missing ',' before identifier 'glClearDepth' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2146: syntax error : missing ',' before identifier 'glClearIndex' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2146: syntax error : missing ',' before identifier 'glClearStencil' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2146: syntax error : missing ',' before identifier 'glClipPlane' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2146: syntax error : missing ',' before identifier 'glColor3b' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2146: syntax error : missing ',' before identifier 'glColor3bv' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2146: syntax error : missing ',' before identifier 'glColor3d' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1177): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1177): fatal error C1003: error count exceeds 100; stopping compilation [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2146: syntax error : missing ',' before identifier 'glAccum' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1157): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2146: syntax error : missing ',' before identifier 'glAlphaFunc' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1158): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2146: syntax error : missing ',' before identifier 'glAreTexturesResident' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1159): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2146: syntax error : missing ',' before identifier 'glArrayElement' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1160): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2146: syntax error : missing ',' before identifier 'glBegin' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1161): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2146: syntax error : missing ',' before identifier 'glBindTexture' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1162): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2146: syntax error : missing ',' before identifier 'glBitmap' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1163): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2146: syntax error : missing ',' before identifier 'glBlendFunc' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1164): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2146: syntax error : missing ',' before identifier 'glCallList' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1165): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2146: syntax error : missing ',' before identifier 'glCallLists' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1166): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2146: syntax error : missing ',' before identifier 'glClear' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1167): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2146: syntax error : missing ',' before identifier 'glClearAccum' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1168): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2146: syntax error : missing ',' before identifier 'glClearColor' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1169): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2146: syntax error : missing ',' before identifier 'glClearDepth' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1170): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2146: syntax error : missing ',' before identifier 'glClearIndex' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1171): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2146: syntax error : missing ',' before identifier 'glClearStencil' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1172): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2146: syntax error : missing ',' before identifier 'glClipPlane' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1173): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2146: syntax error : missing ',' before identifier 'glColor3b' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1174): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2146: syntax error : missing ',' before identifier 'glColor3bv' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1175): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2085: 'APIENTRY' : not in formal parameter list [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2146: syntax error : missing ',' before identifier 'glColor3d' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2143: syntax error : missing ';' before '(' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1176): error C2059: syntax error : ')' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1177): error C2054: expected '(' to follow 'WINGDIAPI' [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\GL/gl.h(1177): fatal error C1003: error count exceeds 100; stopping compilation [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_18423.vcxproj]
+
+    0 Warning(s)
+    102 Error(s)
+
+Time Elapsed 00:00:00.47
+
+
+Determining if the include file GL/glut.h exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_68bcf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:26 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_68bcf.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_68bcf.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_68bcf.dir\Debug\cmTC_68bcf.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_68bcf.dir\Debug\cmTC_68bcf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_68bcf.dir\Debug\\" /Fd"cmTC_68bcf.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_68bcf.dir\Debug\\" /Fd"cmTC_68bcf.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_68bcf.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_68bcf.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_68bcf.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_68bcf.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.32
+
+
+Determining if the include file GLUT/glut.h exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3f6bb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:27 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_3f6bb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3f6bb.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3f6bb.dir\Debug\cmTC_3f6bb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3f6bb.dir\Debug\cmTC_3f6bb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3f6bb.dir\Debug\\" /Fd"cmTC_3f6bb.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3f6bb.dir\Debug\\" /Fd"cmTC_3f6bb.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'GLUT/glut.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_3f6bb.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_3f6bb.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_3f6bb.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'GLUT/glut.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_3f6bb.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.33
+
+
+Determining if the include file OpenGL/gl.h exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_5687a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:27 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5687a.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_5687a.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5687a.dir\Debug\cmTC_5687a.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_5687a.dir\Debug\cmTC_5687a.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5687a.dir\Debug\\" /Fd"cmTC_5687a.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5687a.dir\Debug\\" /Fd"cmTC_5687a.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'OpenGL/gl.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5687a.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5687a.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5687a.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'OpenGL/gl.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_5687a.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.33
+
+
+Determining if the include file OpenGL/glu.h exists failed with the following output:
+Change Dir: C:/libtiff/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_fafdf.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.18444]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/1/2016 1:29:28 PM.
+Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_fafdf.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fafdf.dir\Debug\".
+  Creating directory "C:\libtiff\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fafdf.dir\Debug\cmTC_fafdf.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fafdf.dir\Debug\cmTC_fafdf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_fafdf.dir\Debug\\" /Fd"cmTC_fafdf.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_fafdf.dir\Debug\\" /Fd"cmTC_fafdf.dir\Debug\vc120.pdb" /Gd /TC /errorReport:queue C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'OpenGL/glu.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_fafdf.vcxproj]
+Done Building Project "C:\libtiff\CMakeFiles\CMakeTmp\cmTC_fafdf.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\libtiff\CMakeFiles\CMakeTmp\cmTC_fafdf.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\libtiff\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'OpenGL/glu.h': No such file or directory [C:\libtiff\CMakeFiles\CMakeTmp\cmTC_fafdf.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.34
+
+

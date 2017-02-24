@@ -1,0 +1,55 @@
+# CMake generation dependency list for this directory.
+C:/libtiff/CMakeLists.txt
+C:/libtiff/CMakeFiles/3.5.0-rc3/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeSystemSpecificInitialize.cmake
+C:/libtiff/CMakeFiles/3.5.0-rc3/CMakeCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeLanguageInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Platform/Windows-MSVC.cmake
+C:/libtiff/CMakeFiles/3.5.0-rc3/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/GNUInstallDirs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckCCompilerFlag.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/TestBigEndian.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindZLIB.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindJPEG.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindLibLZMA.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/libtiff/CMakeFiles/3.5.0-rc3/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeLanguageInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindOpenGL.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindGLUT.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.5/Modules/CMakeParseArguments.cmake
+C:/libtiff/libtiff-4.pc.in
