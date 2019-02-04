@@ -489,6 +489,24 @@ static void
 cpTag(TIFF* in, TIFF* out, uint16 tag, uint16 count, TIFFDataType type)
 {
 	switch (type) {
+	case TIFF_BYTE:
+		if (count == 1) {
+			uint8 bytev;
+			CopyField(tag, bytev);
+		}
+		else if (count == 2) {
+			uint8 bytev1, bytev2;
+			CopyField2(tag, bytev1, bytev2);
+		}
+		else if (count == 4) {
+			uint8 *tr, *tg, *tb, *ta;
+			CopyField4(tag, tr, tg, tb, ta);
+		}
+		else if (count == (uint16)-1) {
+			uint8* byteav;
+			CopyField(tag, byteav);
+		}
+		break;
 	case TIFF_SHORT:
 		if (count == 1) {
 			uint16 shortv;
@@ -531,6 +549,16 @@ cpTag(TIFF* in, TIFF* out, uint16 tag, uint16 count, TIFFDataType type)
 		} else if (count == (uint16) -1) {
 			double* doubleav;
 			CopyField(tag, doubleav);
+		}
+		break;
+	case TIFF_FLOAT:
+		if (count == 1) {
+			float floatv;
+			CopyField(tag, floatv);
+		}
+		else if (count == (uint16)-1) {
+			float* floatav;
+			CopyField(tag, floatav);
 		}
 		break;
 	default:
@@ -578,6 +606,12 @@ static struct cpTag {
 	{ TIFFTAG_SMINSAMPLEVALUE,	1, TIFF_DOUBLE },
 	{ TIFFTAG_SMAXSAMPLEVALUE,	1, TIFF_DOUBLE },
 	{ TIFFTAG_STONITS,		1, TIFF_DOUBLE },
+
+	//{ TIFFTAG_OPIIMAGEID,		1, TIFF_ASCII },
+	{ TIFFTAG_X_POS,			1, TIFF_FLOAT},
+	{ TIFFTAG_Y_POS,			1, TIFF_FLOAT },
+	{ TIFFTAG_Z_POS,			1, TIFF_FLOAT }
+
 };
 #define	NTAGS	(sizeof (tags) / sizeof (tags[0]))
 
