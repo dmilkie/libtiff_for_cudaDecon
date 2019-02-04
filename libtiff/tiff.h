@@ -449,11 +449,6 @@ typedef enum {
 #define TIFFTAG_STONITS			37439	/* Sample value to Nits */
 /* tag 34929 is a private tag registered to FedEx */
 #define	TIFFTAG_FEDEX_EDR		34929	/* unknown use */
-
-#define TIFFTAG_X_POS			40000
-#define TIFFTAG_Y_POS			40001
-#define TIFFTAG_Z_POS			40002
-
 #define TIFFTAG_INTEROPERABILITYIFD	40965	/* Pointer to Interoperability private directory */
 /* Adobe Digital Negative (DNG) format tags */
 #define TIFFTAG_DNGVERSION		50706	/* &DNG version number */

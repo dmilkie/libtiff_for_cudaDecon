@@ -3419,7 +3419,7 @@ TIFFReadDirectory(TIFF* tif)
 		    "Failed to read directory at offset " TIFF_UINT64_FORMAT,nextdiroff);
 		return 0;
 	}
-	//TIFFReadDirectoryCheckOrder(tif,dir,dircount);
+	TIFFReadDirectoryCheckOrder(tif,dir,dircount);
 
         /*
          * Mark duplicates of any tag to be ignored (bugzilla 1994)
@@ -4728,15 +4728,13 @@ TIFFFetchNormalTag(TIFF* tif, TIFFDirEntry* dp, int recover)
 					int n;
 					ma=data;
 					mb=0;
-					//while (mb<(uint32)dp->tdir_count)
-					//{
-					//	if (*ma==0)
-					//		break;
-					//	ma++;
-					//	mb++;
-					//}
-					mb = (uint32)dp->tdir_count - 1;
-
+					while (mb<(uint32)dp->tdir_count)
+					{
+						if (*ma==0)
+							break;
+						ma++;
+						mb++;
+					}
 					if (mb+1<(uint32)dp->tdir_count)
 						TIFFWarningExt(tif->tif_clientdata,module,"ASCII value for tag \"%s\" contains null byte in value; value incorrectly truncated during reading due to implementation limitations",fip->field_name);
 					else if (mb+1>(uint32)dp->tdir_count)

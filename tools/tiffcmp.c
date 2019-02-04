@@ -238,10 +238,8 @@ tiffcmp(TIFF* tif1, TIFF* tif2)
 	if (buf2) _TIFFfree(buf2);
 	return (1);
 bad:
-	if (stopondiff){
-		fprintf(stderr, "bad.\n");
+	if (stopondiff)
 		exit(1);
-	}
 bad1:
 	if (buf1) _TIFFfree(buf1);
 	if (buf2) _TIFFfree(buf2);
@@ -325,10 +323,6 @@ cmptags(TIFF* tif1, TIFF* tif2)
 	CmpStringField(TIFFTAG_DOCUMENTNAME,	"DocumentName");
 	CmpShortField(TIFFTAG_MATTEING,		"Matteing");
 	CmpShortArrayField(TIFFTAG_EXTRASAMPLES,"ExtraSamples");
-	CmpFloatField(TIFFTAG_X_POS, "X_Position_(mm)");
-	CmpFloatField(TIFFTAG_Y_POS, "Y_Position_(mm)");
-	CmpFloatField(TIFFTAG_Z_POS, "Z_Position_(mm)");
-	
 	return (1);
 }
 
@@ -457,10 +451,8 @@ PrintIntDiff(uint32 row, int sample, uint32 pix, uint32 w1, uint32 w2)
 					sample,
 					(unsigned int)((w1 >> s) & mask1),
 					(unsigned int)((w2 >> s) & mask1));
-				if (--stopondiff == 0){
-					fprintf(stdout, "Difference found.\n");
+				if (--stopondiff == 0)
 					exit(1);
-				}
 			}
 		}
 		break;
@@ -469,28 +461,22 @@ PrintIntDiff(uint32 row, int sample, uint32 pix, uint32 w1, uint32 w2)
 		printf("Scanline %lu, pixel %lu, sample %d: %02x %02x\n",
 		       (unsigned long) row, (unsigned long) pix, sample,
 		       (unsigned int) w1, (unsigned int) w2);
-		if (--stopondiff == 0){
-			fprintf(stdout, "Difference found.\n");
+		if (--stopondiff == 0)
 			exit(1);
-		}
 		break;
 	case 16:
 		printf("Scanline %lu, pixel %lu, sample %d: %04x %04x\n",
 		    (unsigned long) row, (unsigned long) pix, sample,
 		    (unsigned int) w1, (unsigned int) w2);
-		if (--stopondiff == 0){
-			fprintf(stdout, "Difference found.\n");
+		if (--stopondiff == 0)
 			exit(1);
-		}
 		break;
 	case 32:
 		printf("Scanline %lu, pixel %lu, sample %d: %08x %08x\n",
 		    (unsigned long) row, (unsigned long) pix, sample,
 		    (unsigned int) w1, (unsigned int) w2);
-		if (--stopondiff == 0){
-			fprintf(stdout, "Difference found.\n");
+		if (--stopondiff == 0)
 			exit(1);
-		}
 		break;
 	default:
 		break;
@@ -506,10 +492,8 @@ PrintFloatDiff(uint32 row, int sample, uint32 pix, double w1, double w2)
 	case 32: 
 		printf("Scanline %lu, pixel %lu, sample %d: %g %g\n",
 		    (long) row, (long) pix, sample, w1, w2);
-		if (--stopondiff == 0){
-			fprintf(stdout, "Difference found.\n");
+		if (--stopondiff == 0)
 			exit(1);
-		}
 		break;
 	default:
 		break;
@@ -532,10 +516,8 @@ SeparateCompare(int reversed, int sample, uint32 row,
 				printf("%02x %02x\n", *p2, *cp1);
 			else
 				printf("%02x %02x\n", *cp1, *p2);
-			if (--stopondiff == 0){
-				fprintf(stdout, "Difference found.\n");
+			if (--stopondiff == 0)
 				exit(1);
-			}
 		}
 	}
 
